@@ -1,0 +1,25 @@
+Program Example8; (* Factorial *)
+   
+Var n : Integer;
+Var m : bytes
+
+Function F(n : Integer) : Integer;
+  Begin
+    If n = 0 Then F := 1 Else F := N * F (N - 1);
+  End;
+
+Begin
+  For n := 1 To 7 Do
+    Begin
+      Call WriteLn;
+      Call WriteI( F(i));
+    End;
+  REPEAT 
+      Begin
+      	Call WriteLn;
+        Call WriteI( F(i));
+      End;
+   UNTIL n = 0;
+
+End. (* Factorial *)
+// 1+1
