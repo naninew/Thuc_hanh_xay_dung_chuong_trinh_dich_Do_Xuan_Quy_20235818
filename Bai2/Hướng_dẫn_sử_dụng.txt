@@ -1,0 +1,3 @@
+compile file: gcc scanner.c reader.c token.c charcode.c error.c -o scanner.exe
+chạy file:  .\scanner.exe example8.kpl
+output sẽ được in ra màn hình
